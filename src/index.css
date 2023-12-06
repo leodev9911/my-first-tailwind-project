@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --dark-violet: #434245;
+    --grayish-blue: #94a8c7;
+    --very-dark-violet: #2a262e;
+    --dark-grayish-violet: #837d87;
+    --very-light-gray: #fafafa;
+      /* ... */
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
