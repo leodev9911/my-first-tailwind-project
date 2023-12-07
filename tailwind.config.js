@@ -13,6 +13,10 @@ export default {
         darkGrayishViolet: 'var(--dark-grayish-violet)',
         veryLightGray: 'var(--very-light-gray)'
       },
+      fontFamily: {
+        serifDisplay: ['DM Serif Display', 'serif'],
+        karla: ['Karla', 'sans-serif']
+      }
     },
   },
   plugins: [],
