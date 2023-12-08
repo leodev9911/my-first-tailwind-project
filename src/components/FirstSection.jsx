@@ -4,7 +4,7 @@ import affordablePricesIcon from '../assets/images/icon-affordable-prices.svg'
 
 export default function FirstSection () {
   return (
-    <section className='text-center xl:text-start'>
+    <section className='max-w-7xl my-0 mx-auto text-center xl:text-start'>
       <span className='inline-block w-[50%] border-t-2 max-w-[140px] border-darkGrayishViolet mb-10' />
       <h2 className='text-5xl mb-24 font-serifDisplay'>We're different</h2>
       <div className='flex flex-col items-center gap-16 md:flex-row'>

@@ -3,7 +3,7 @@ import howWeWorkPatternDesktop from '../assets/images/bg-pattern-how-we-work-des
 
 export default function SecondSection () {
   return (
-    <section className='relative flex flex-col items-center gap-8 bg-darkViolet py-20 px-5 mt-32 text-center text-white lg:flex-row lg:justify-between lg:px-20 lg:text-start'>
+    <section className='relative max-w-7xl my-0 mx-auto flex flex-col items-center gap-8 bg-darkViolet py-20 px-5 mt-32 text-center text-white lg:flex-row lg:justify-between lg:px-20 lg:text-start'>
         <img 
           src={howWeWorkPatternMobile} 
           alt='Second section pattern'
