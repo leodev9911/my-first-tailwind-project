@@ -5,7 +5,7 @@ import patternIntroRightMobile from '../assets/images/bg-pattern-intro-right-mob
 import patternIntroLeftDesktop from '../assets/images/bg-pattern-intro-left-desktop.svg'
 import patternIntroRightDesktop from '../assets/images/bg-pattern-intro-right-desktop.svg'
 
-export default function HeaderSection () {
+export default function HeaderSection ({ children }) {
   return (
     <section className='relative bg-darkViolet w-full md:px-6 md:py-10 lg:py-32'>
       <img 
@@ -51,6 +51,7 @@ export default function HeaderSection () {
           VIEW PLANS
         </a>
       </div>
+      {children}
     </section>
   )
 }
